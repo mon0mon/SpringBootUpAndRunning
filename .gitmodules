@@ -1,0 +1,9 @@
+[submodule "ref/springbootupandrunning"]
+	path = ref/springbootupandrunning
+	url = https://github.com/mkheck/springbootupandrunning
+[submodule "ref/database"]
+	path = ref/database
+	url = https://github.com/mkheck/containerscripts-database
+[submodule "ref/SBUAR-ko"]
+	path = ref/SBUAR-ko
+	url = https://github.com/springboot-up-and-running/SpringBootUpAndRunning-Spring-Boot-3.git

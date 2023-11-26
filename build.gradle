@@ -38,7 +38,6 @@ subprojects {
         developmentOnly 'org.springframework.boot:spring-boot-devtools'
         annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
         annotationProcessor 'org.projectlombok:lombok'
-        testImplementation 'org.springframework.boot:spring-boot-starter-test'
     }
 
     test {
@@ -50,4 +49,10 @@ project('modules:common') {
     jar.enabled = true
 
     dependencies {}
+}
+
+project('modules:ch02') {
+    dependencies {
+        implementation project(':modules:common')
+    }
 }
