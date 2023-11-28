@@ -1,4 +1,4 @@
 rootProject.name = 'SpringBootUpAndRunning'
 include 'modules:common'
 include 'modules:ch02'
-
+include 'modules:ch03'

@@ -56,3 +56,9 @@ project('modules:ch02') {
         implementation project(':modules:common')
     }
 }
+
+project('modules:ch03') {
+    dependencies {
+        implementation project(':modules:common')
+    }
+}
