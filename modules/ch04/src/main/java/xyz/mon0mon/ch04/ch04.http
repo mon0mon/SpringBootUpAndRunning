@@ -1,0 +1,37 @@
+### GET 요청으로 커피 목록 가져오기
+GET http://localhost:8080/coffees
+
+
+### GET 요청으로 단일 커피 가져오기
+GET http://localhost:8080/coffees/{{$random.uuid}}
+
+### GET 요청으로 단일 커피 가져오기
+GET http://localhost:8080/coffees/1234-5678-910
+
+
+### POST 요청으로 커피 객체 생성하기
+POST http://localhost:8080/coffees
+Content-Type: application/json
+
+{
+  "id" : "1",
+  "name" : "test"
+}
+
+
+### PUT 요청으로 커피 객체 수정하기
+PUT http://localhost:8080/coffees/1
+Content-Type: application/json
+
+{
+  "id" : "2",
+  "name" : "test2"
+}
+
+
+### DELETE 요청으로 커피 객체 삭제하기
+DELETE http://localhost:8080/coffees/1
+
+
+### 삭제 요청한 커피 객체가 존재하는 지 확인하는 GET 요청
+GET http://localhost:8080/coffees/1
