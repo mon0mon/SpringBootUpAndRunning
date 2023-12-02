@@ -65,6 +65,12 @@ project('modules:ch03') {
 
 project('modules:ch04') {
     dependencies {
-        implementation project(':modules:common')
+        compileOnly project(':modules:common')
+    }
+}
+
+project('modules:ch05') {
+    dependencies {
+        compileOnly project(':modules:common')
     }
 }

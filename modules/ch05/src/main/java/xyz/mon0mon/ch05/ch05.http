@@ -1,0 +1,36 @@
+### GET 요청으로 greeting 속성값 가져오기
+GET http://localhost:8080/greeting
+
+
+### GET 요청으로 greeting name과 greeting coffee 속성값 가져오기
+GET http://localhost:8080/greeting/coffee
+
+
+### GET 요청으로 droid 속성값 가져오기
+GET http://localhost:8080/droid
+
+
+### GET 요청으로 /actuator에 접근하기
+GET http://localhost:8080/actuator
+
+
+### 액츄에이터로 현재 어플리케이션 상태 확인하기 /actuator/health
+GET http://localhost:8080/actuator/health
+
+
+### 액츄에이터로 환경변수 파일 확인하기 /actuator/env
+GET http://localhost:8080/actuator/env
+
+
+### 액츄에이터로 로깅수준 확인하기 /actuator/loggers/org.springframework.data.web
+GET http://localhost:8080/actuator/loggers/org.springframework.data.web
+
+
+### 액츄에이터로 로깅수준 변경하기 /actuator/loggers/org.springframework.data.web
+POST http://localhost:8080/actuator/loggers/org.springframework.data.web
+Content-Type: application/json
+
+{
+  "configuredLevel" : "ERROR",
+  "effectiveLevel" : "ERROR"
+}

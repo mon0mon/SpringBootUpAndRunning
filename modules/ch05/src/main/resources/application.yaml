@@ -1,0 +1,23 @@
+#greeting-name : Dakota
+#greeting-coffee : ${greeting-name} is drinking Café Cereza
+greeting:
+  name: Dakota
+  coffee: ${greeting.name} is drinking Café Cereza
+
+droid:
+  id: BB-8
+  description: Small, rolling android. Probably doesn't drink coffee.
+
+debug: false
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          env, info, health, *
+  endpoint:
+    health:
+      show-details: always
+    env:
+      show-values: always
