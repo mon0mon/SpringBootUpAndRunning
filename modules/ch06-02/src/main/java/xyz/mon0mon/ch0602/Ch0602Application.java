@@ -1,12 +1,13 @@
-package xyz.mon0mon.ch06;
+package xyz.mon0mon.ch0602;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Ch06Application {
+public class Ch0602Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(Ch06Application.class, args);
+        SpringApplication.run(Ch0602Application.class, args);
     }
+
 }
