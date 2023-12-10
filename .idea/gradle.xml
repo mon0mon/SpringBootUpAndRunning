@@ -61,6 +61,30 @@
           </set>
         </option>
       </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/modules/ch06-03" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/modules/ch06-03" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/modules/ch06-04" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/modules/ch06-04" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/modules/ch07" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/modules/ch07" />
+          </set>
+        </option>
+      </GradleProjectSettings>
     </option>
   </component>
 </project>

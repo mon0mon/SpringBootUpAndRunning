@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+#      uri: mongodb://root:root@localhost:27017/sbuar?authSource=admin
+      username: root
+      password: root
+      host: localhost
+      port: 27017
+      database: sbuar
+      authentication-database: admin
